@@ -12,6 +12,8 @@ python-pipx
 obsidian
 discord
 lutris
+power-profiles-daemon
+xfce4-settings
 
 [AUR/paru]
 microsoft-edge-dev-bin
