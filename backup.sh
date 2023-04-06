@@ -10,3 +10,4 @@ cp -r ~/.config/redshift $PWD/.config
 cp -r ~/.config/dunst $PWD/.config
 cp -r ~/.config/rofi $PWD/.config
 cp -r ~/.config/scripts $PWD/.config
+cp -r ~/.config/dotfiles $PWD/.config
