@@ -166,6 +166,8 @@ bindsym $mod+r mode "resize"
 
 # ----------> Manager window <----------
 for_window [class="League of Legends*"] floating enable
+for_window [title="Salvar arquivo"] floating enable
+
 
 
 

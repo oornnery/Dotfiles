@@ -1,0 +1,10 @@
+# My person config
+
+
+font=
+shell=zsh
+icon=Adwaita
+theme=Catppuccin-Frappe-Standard-Blue-Dark
+terminal=alacritty
+manager_aur=paru
+packages_pacman=polybar rofi nitrogen
