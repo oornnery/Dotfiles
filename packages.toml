@@ -49,10 +49,15 @@ ttf-jetbrains-mono-nerd
 ttf-firacode-nerd
 
 [extra/lutris]
+aaa
 
-[bluetooth]
-broadcom-bt-firmware
+[pacman/bluetooth]
 bluez
 bluez-utils
 bluez-tools
 blueman 
+
+[AUR/paru/bluetooth]
+bluez-utils-compat
+broadcom-bt-firmware
+pulseaudio-bluetooth
