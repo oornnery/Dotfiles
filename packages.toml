@@ -1,63 +1,43 @@
-[pacman]
-unzip
-htop
-git
-alacritty
-zsh
-wget
-neovim
-neofetch
-python3
-python-pipx
-obsidian
-discord
-lutris
-power-profiles-daemon
-xfce4-settings
-github-cli
 
-[AUR/paru]
-microsoft-edge-dev-bin
-visual-studio-code-bin
-teamviewer
-mangohud
-heroic-games-launcher-bin
-kabmat
+[arch] # pacman -Syyu
 
-[i3]
-i3-wm
-rofi
-polybar
-picom
-feh
-dunst
-redshift
-lxappearance
-autotiling-rs-git
+[arch.system]
+pacman = ["openssh", "wget", "bluez", "bluez-utils", "blueman", "pulseaudio", "alsa-utils", "alsa-plugins", "pavucontrol", "xdg-user-dirs", "firefox", "unzip", "htop", "git", "wget", "neovim", "neofetch", "obsidian", "discord", "power-profiles-daemon"]
+aur = ["broadcom-bt-firmware", "pulseaudio-bluetooth"]
 
-[displayManager]
-lightdm
-lightdm-gtk-greeter
+[arch.fonts]
+pacman = []
+aur = ["ttf-roboto-mono-nerd", "ttf-jetbrains-mono-nerd", "ttf-firacode-nerd"]
 
-[themes]
-arc-gtk-dark
-papirus-icon-theme
+[arch.themes]
+pacman = ["arc-gtk-theme", "arc-icon-theme", "papirus-icon-theme", "papirus-folders"]
+aur = [""]
 
-[fonts]
-ttf-roboto-mono-nerd
-ttf-jetbrains-mono-nerd
-ttf-firacode-nerd
+[arch.i3] # pacman -Syyu
+pacman = ["i3-wm", "rofi", "polybar", "picom", "feh", "dunst", "redshift", "lxappearance", "xfce4-settings", "power-profiles-daemon", "lightdm", "lightdm-gtk-greeter"]
+aur = ["autotiling-rs-git"]
 
-[extra/lutris]
-aaa
+[arch.games] 
+pacman = ["lutris"]
+aur = ["heroic-games-launcher-bin", "teamviewer"]
 
-[pacman/bluetooth]
-bluez
-bluez-utils
-bluez-tools
-blueman 
+[arch.development]
+pacman = ["github-cli", "python3", "python-pipx", "visual-studio-code-bin", "microsoft-edge-dev-bin", "astronvim"]
+aur = ["kabmat"]
 
-[AUR/paru/bluetooth]
-bluez-utils-compat
-broadcom-bt-firmware
-pulseaudio-bluetooth
+[arch.multimedia]
+pacman = ["vlc", "mpv"]
+aur = ["spotify-adblock-git", "spotify-tui-bin"]
+
+[arch.networking]
+pacman = ["networkmanager", "network-manager-applet"]
+aur = [""]
+
+[arch.bluetooth]
+pacman = []
+aur = []
+
+[arch.opcionais]
+pacman = ["zsh", "alacritty"]
+aur = ["microsoft-edge-bin", "teamviewer", "spotify", "kabmat"]
+
