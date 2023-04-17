@@ -2,8 +2,13 @@
 [arch] # pacman -Syyu
 
 [arch.system]
-pacman = ["openssh", "wget", "bluez", "bluez-utils", "blueman", "pulseaudio", "alsa-utils", "alsa-plugins", "pavucontrol", "xdg-user-dirs", "firefox", "unzip", "htop", "git", "wget", "neovim", "neofetch", "obsidian", "discord", "power-profiles-daemon"]
-aur = ["broadcom-bt-firmware", "pulseaudio-bluetooth"]
+pacman = ["openssh", "wget", "xdg-user-dirs", "firefox", "unzip", "htop", "git", "wget", "neovim", "neofetch", "obsidian", "discord", "power-profiles-daemon", "alacritty"]
+aur = [""]
+audio_pacman = ["pulseaudio", "alsa-utils", "alsa-plugins", "pavucontrol"]
+network_pacman = ["networkmanager", "network-manager-applet", "dhcpcd", "iw"]
+bluetooth_pacman = ["bluez", "bluez-utils", "blueman"]
+bluetooth_aur = ["broadcom-bt-firmware", "pulseaudio-bluetooth"]
+systemd = [""]
 
 [arch.fonts]
 pacman = []
@@ -14,7 +19,11 @@ pacman = ["arc-gtk-theme", "arc-icon-theme", "papirus-icon-theme", "papirus-fold
 aur = [""]
 
 [arch.i3] # pacman -Syyu
-pacman = ["i3-wm", "rofi", "polybar", "picom", "feh", "dunst", "redshift", "lxappearance", "xfce4-settings", "power-profiles-daemon", "lightdm", "lightdm-gtk-greeter"]
+xorg = ["xorg-server", "xorg-xinit", "xorg-apps", "mesa"]
+intel = ["xf86-video-intel"]
+nvidia = ["nvidia", "nvidia-utils", "nvidia-settings"]
+amd = ["xf86-video-amdgpu"]
+pacman = ["i3-wm","i3status", "i3blocks", "dmenu", "rofi", "polybar", "picom", "feh", "dunst", "redshift", "lxappearance", "xfce4-settings", "power-profiles-daemon", "lightdm", "lightdm-gtk-greeter", "lightdm-gtk-greeter-settings", "arandr", "alsa-utils", "alacritty"]
 aur = ["autotiling-rs-git"]
 
 [arch.games] 
@@ -29,15 +38,8 @@ aur = ["kabmat"]
 pacman = ["vlc", "mpv"]
 aur = ["spotify-adblock-git", "spotify-tui-bin"]
 
-[arch.networking]
-pacman = ["networkmanager", "network-manager-applet"]
-aur = [""]
-
-[arch.bluetooth]
-pacman = []
-aur = []
-
 [arch.opcionais]
 pacman = ["zsh", "alacritty"]
 aur = ["microsoft-edge-bin", "teamviewer", "spotify", "kabmat"]
+zsh_aur = ["zsh", "zsh-autosuggestions", "zsh-syntax-highlighting", "zsh-completions", "zsh-history-substring-search", "zsh-theme-powerlevel10k", "zsh-vi-mode", "zsh-git-prompt", "zsh-autop"]
 
