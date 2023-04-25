@@ -1,0 +1,9 @@
+- [ ] Editar i3 config
+- [ ] Editar i3blocks config
+- [ ] Editar sway config
+- [ ] Criar script de instalação e backup do setup atual
+- [ ] Criar lista de pacotes essencias do Archlinux
+- [ ] Criar lista de pacotes para (i3, sway, zsh, nvim, etc)
+- [ ] Automatizar instalação de pacotes
+- [ ] Criar README.md
+- [ ] Subir prints do setup
