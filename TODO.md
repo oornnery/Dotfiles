@@ -19,10 +19,8 @@
     - [ ] Autostart applications/service on login
       - [ ] system try
   - [ ] Structure directories
-  - [ ] 
-- [ ] 
 
-
+## Scripts
 - [ ] crate scripts for rofi and wofi
   - [ ] Bluetooth
   - [ ] high/low Screen Brightness
@@ -32,5 +30,5 @@
   - [ ] Sound control
   - [ ] PowerMenu
   - [ ] PowerManager
-- [ ] 
+
 
