@@ -46,7 +46,7 @@ zsh_aur = ["zsh", "zsh-autosuggestions", "zsh-syntax-highlighting", "zsh-complet
 
 [arch.productivity]
 pacman = []
-aur = ["dstask", "kabmat", "notesh", "fuzzynote"]
+aur = ["dstask", "kabmat", "notesh", "fuzzynote", "pomo", "taskbook"]
 pipx = ["shell-genie"]
 
 [rofi]
