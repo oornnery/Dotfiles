@@ -63,6 +63,12 @@
 
 ## Install packages:
 
+### ZSH
+
+### Developer
+
+### Tools
+
 ### Bluetooth
 
 ```bash
