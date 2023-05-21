@@ -72,5 +72,5 @@
 ### Bluetooth
 
 ```bash
-paru -S bluez bluez-cups bluez-hid2hci bluez-libs bluez-plugins bluez-tools bluez-utils pulseaudio-bluetooth blueberry blueman
+paru -S bluez bluez-cups bluez-hid2hci bluez-libs bluez-plugins bluez-tools bluez-utils pulseaudio-bluetooth blueberry blueman broadcom-bt-firmware
 ```
