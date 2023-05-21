@@ -7,5 +7,5 @@ terminal="alacritty"
 manager_aur="paru"
 
 # Monitors
-monitor_primary="HDMI1"
-monitor_left="LVDS1"
+monitor_primary="HDMI-A-1"
+monitor_left="LVDS-1"

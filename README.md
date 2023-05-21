@@ -54,3 +54,17 @@
 ## Key Bindings
 
 -> Bindings table
+
+---
+
+# hyprland
+
+---
+
+## Install packages:
+
+### Bluetooth
+
+```bash
+paru -S bluez bluez-cups bluez-hid2hci bluez-libs bluez-plugins bluez-tools bluez-utils pulseaudio-bluetooth blueberry blueman
+```

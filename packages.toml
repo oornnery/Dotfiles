@@ -44,10 +44,16 @@ pacman = ["zsh", "alacritty"]
 aur = ["microsoft-edge-bin", "teamviewer", "spotify"]
 zsh_aur = ["zsh", "zsh-autosuggestions", "zsh-syntax-highlighting", "zsh-completions", "zsh-history-substring-search", "zsh-theme-powerlevel10k", "zsh-vi-mode", "zsh-git-prompt", "zsh-autop"]
 
-[arch.productivity]
-pacman = []
-aur = ["dstask", "kabmat", "notesh", "fuzzynote", "pomo", "taskbook"]
-pipx = ["shell-genie"]
+[productivity]
+productivity_pacman = []
+productivity_aur = ["dstask", "kabmat", "notesh", "fuzzynote", "pomo", "taskbook"]
+productivity_pipx = ["shell-genie"]
+
+
+[zsh]
+zsh_pacman = []
+zsh_aur = []
+zsh_plugins = []
 
 [rofi]
 rofi_pacman = []
