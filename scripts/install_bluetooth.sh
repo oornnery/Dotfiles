@@ -5,8 +5,7 @@
 # Install bluetooth
 echo "Install bluetooth packages\n"
 
-sudo pacman -S bluez blueman
-paru -S pulseaudio-bluetooth broadcom-bt-firmware bluez-utils-compat
+paru -S bluez bluez-cups bluez-hid2hci bluez-libs bluez-plugins bluez-tools bluez-utils broadcom-bt-firmware-git pulseaudio-bluetooth blueman blueberry
 
 # Enable bluetooth
 echo "Enabled bluetooth.service\n"
