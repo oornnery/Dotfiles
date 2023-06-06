@@ -2,7 +2,7 @@
 [arch] # pacman -Syyu
 
 [arch.system]
-pacman = ["openssh", "wget", "xdg-user-dirs", "firefox", "unzip", "htop", "git", "wget", "neovim", "neofetch", "obsidian", "discord", "power-profiles-daemon", "alacritty"]
+pacman = ["openssh", "wget", "xdg-user-dirs", "firefox", "unzip", "htop", "git", "wget", "neovim", "neofetch", "obsidian", "discord", "power-profiles-daemon", "alacritty", "pavucontrol"]
 aur = [""]
 audio_pacman = ["pulseaudio", "alsa-utils", "alsa-plugins", "pavucontrol"]
 network_pacman = ["networkmanager", "network-manager-applet", "dhcpcd", "iw"]
